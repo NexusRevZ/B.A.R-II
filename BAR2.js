@@ -305,7 +305,7 @@
             afkRankCheck: 'ambassador',
             motdEnabled: true,
             motdInterval: 4,
-            motd: 'Welcome to Club RevolutionZ. Enjoy your stay and do not mind the Bartender. He is still in training. If you do enjoy your stay with Club RevolutionZ, do checkin with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey', //Temporary Message of the Day
+            motd: 'Welcome to Club RevolutionZ. Enjoy your stay and do not mind the Bartender. He is still in training. If you do enjoy your stay with Club RevolutionZ, do checkin with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? tinyurl.com/ClubRevZSurvey', //Temporary Message of the Day
             filterChat: true,
             etaRestriction: false,
             welcome: true,
