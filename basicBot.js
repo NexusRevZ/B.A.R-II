@@ -312,7 +312,7 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
+            fbLink: 'https://www.facebook.com/ClubRevolutionZ',
             youtubeLink: null,
             website: null,
             intervalMessages: [],
