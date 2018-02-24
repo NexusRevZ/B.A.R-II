@@ -248,7 +248,7 @@
     var basicBot = {
         version: '2.12.0',
         status: false,
-        name: 'Bartender-In-Training', //name: 'basicBot',*/
+        name: 'Bartender-In-Training',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
@@ -268,11 +268,11 @@
             startupEmoji: false, // true or false
             autowoot: true,
             autoskip: false,
-            smartSkip: false, //was true*/
+            smartSkip: false,
             cmdDeletion: true,
-            maximumAfk: false, // was 120 */
-            afkRemoval: false, // was true */
-            maximumDc: false, // was 60*/
+            maximumAfk: false, // was 120
+            afkRemoval: false,/
+            maximumDc: false, // was 60
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -303,16 +303,16 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
-            motdEnabled: true, // was false */
+            motdEnabled: true,
             motdInterval: 4,
-            motd: 'Welcome to Club RevolutionZ. Enjoy your stay and do not mind the Bartender. He is still in training. If you do enjoy your stay with Club RevolutionZ, do checkin with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey', //'Temporary Message of the Day', */
+            motd: 'Welcome to Club RevolutionZ. Enjoy your stay and do not mind the Bartender. He is still in training. If you do enjoy your stay with Club RevolutionZ, do checkin with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey', //Temporary Message of the Day
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: 'https://www.facebook.com/ClubRevolutionZ/', //null, */
+            fbLink: 'https://www.facebook.com/ClubRevolutionZ/', //null
             youtubeLink: null,
             website: null,
             intervalMessages: ['Test 1', 'Test 2'],
