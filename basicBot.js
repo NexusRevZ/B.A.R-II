@@ -258,7 +258,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'basicBot',
+            botName: 'Bartender-In-Training',
             language: 'english',
             chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
             scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
@@ -272,7 +272,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: true,
-            maximumDc: 60,
+            maximumDc: 110,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
