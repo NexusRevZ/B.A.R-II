@@ -305,7 +305,7 @@
             afkRankCheck: 'ambassador',
             motdEnabled: false,
             motdInterval: 5,
-            motd: 'Temporary Message of the Day',
+            motd: 'If you do enjoy your stay with Club RevolutionZ, do checkin with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey',
             filterChat: true,
             etaRestriction: false,
             welcome: true,
