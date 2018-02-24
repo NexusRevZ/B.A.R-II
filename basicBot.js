@@ -2012,7 +2012,7 @@
             },
 
             clearchatCommand: {
-                command: 'clearchat',
+                command: ['clearchat', 'clr'],,
                 rank: 'manager',
                 type: 'exact',
                 functionality: function(chat, cmd) {
