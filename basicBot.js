@@ -258,7 +258,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'basicBot',
+            botName: 'Bartender-In-Training',
             language: 'english',
             chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
             scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
@@ -272,7 +272,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: true,
-            maximumDc: 60,
+            maximumDc: 90,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -303,9 +303,9 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
-            motdEnabled: false,
-            motdInterval: 5,
-            motd: 'Temporary Message of the Day',
+            motdEnabled: true,
+            motdInterval: 4,
+            motd: 'If you do enjoy your stay with Club RevolutionZ, do checking with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey',
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -2012,7 +2012,7 @@
             },
 
             clearchatCommand: {
-                command: 'clearchat',
+                command: ['clearchat', 'clr', 'clear'],
                 rank: 'manager',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -2086,7 +2086,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: ['cookie', 'cookies'],
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function(chat) {
@@ -2296,7 +2296,7 @@
             },
 
             emojiCommand: {
-                command: 'emoji',
+                command: ['emoji', 'emo'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -2409,7 +2409,7 @@
             },
 
             fbCommand: {
-                command: 'fb',
+                command: ['fb', 'facebook']
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -3320,7 +3320,7 @@
             },
 
             rulesCommand: {
-                command: 'rules',
+                command: ['rule', 'rules'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -4061,7 +4061,7 @@
             },
 
             websiteCommand: {
-                command: 'website',
+                command: ['website', 'site', 'www'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
@@ -4102,7 +4102,7 @@
             },
 
             whoisCommand: {
-                command: 'whois',
+                command: ['who', 'whois'],
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function(chat, cmd) {
@@ -4209,7 +4209,7 @@
             },
 
             youtubeCommand: {
-                command: 'youtube',
+                command: ['youtube', 'utube'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function(chat, cmd) {
