@@ -248,7 +248,7 @@
     var basicBot = {
         version: '2.12.0',
         status: false,
-        name: 'basicBot',
+        name: 'Bartender-In-Training',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
