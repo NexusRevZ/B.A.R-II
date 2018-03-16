@@ -246,9 +246,9 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.12.1',
+        version: '2.12.2',
         status: false,
-        name: 'Bartender-In-Training',
+        name: 'Bartender-In-Training with beer license',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
