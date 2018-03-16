@@ -246,9 +246,9 @@
     var botCreatorIDs = [3851534, 4105209];
 
     var basicBot = {
-        version: '2.13.0',
+        version: '2.12.0',
         status: false,
-        name: 'Bartender-In-Training',
+        name: 'basicBot',
         loggedInID: null,
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
@@ -258,7 +258,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Bartender-In-Training',
+            botName: 'basicBot',
             language: 'english',
             chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
             scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
@@ -272,7 +272,7 @@
             cmdDeletion: true,
             maximumAfk: 120,
             afkRemoval: true,
-            maximumDc: 110,
+            maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -305,14 +305,14 @@
             afkRankCheck: 'ambassador',
             motdEnabled: false,
             motdInterval: 5,
-            motd: 'If you do enjoy your stay with Club RevolutionZ, do checkin with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey',
+            motd: 'Temporary Message of the Day',
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: 'https://www.facebook.com/ClubRevolutionZ',
+            fbLink: null,
             youtubeLink: null,
             website: null,
             intervalMessages: [],
@@ -2119,47 +2119,6 @@
                                     nameto: user.username,
                                     namefrom: chat.un,
                                     cookie: this.getCookie()
-                                }));
-                            }
-                        }
-                    }
-                }
-            },
-
-            beerCommand: {
-                command: 'beer',
-                rank: 'user',
-                type: 'startsWith',
-                getBeer: function(chat) {
-                    var c = Math.floor(Math.random() * basicBot.chat.beers.length);
-                    return basicBot.chat.beers[c];
-                },
-                functionality: function(chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void(0);
-                    else {
-                        var msg = chat.message;
-
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.eatbeer);
-                            return false;
-                        } else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nouserbeer, {
-                                    name: name
-                                }));
-                            } else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.selfbeer, {
-                                    name: name
-                                }));
-                            } else {
-                                return API.sendChat(subChat(basicBot.chat.beer, {
-                                    nameto: user.username,
-                                    namefrom: chat.un,
-                                    beer: this.getBeer()
                                 }));
                             }
                         }
