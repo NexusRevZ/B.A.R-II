@@ -2125,7 +2125,7 @@
                     }
                 }
             },
-
+         
             beerCommand: {
                 command: 'beer',
                 rank: 'user',
