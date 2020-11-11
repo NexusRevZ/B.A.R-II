@@ -249,7 +249,7 @@
         status: false,
         name: 'basicBot',
         loggedInID: null,
-        scriptLink: 'https://raw.githack.com/com/NexusRevZ/BARIII/master/basicBot.js',
+        scriptLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
         chatLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/lang/en.json',
         chat: null,
