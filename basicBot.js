@@ -257,7 +257,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'basicBot',
+            botName: 'BarTender Bot',
             language: 'english',
             chatLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/lang/en.json',
             scriptLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/basicBot.js',
