@@ -1,5 +1,21 @@
 /**
 
+    "beers": [
+        "has bought you a pint of Johny Walker!",
+        "has bought you a glass of Vodka!",
+        "has bought you an empty glass...",
+        "has bought you a bottle of Budweiser beer.",
+        "has bought you a bottle of Bud Light beer.",
+        "has bought you a bottle of Heineken beer.",
+        "has bought you a bottle of Guinness Stout beer.",
+        "has bought you a bottle of Sam Adams beer.",
+        "has bought you a bottle of Becks beer.",
+        "has bought you a bottle of Corana beer.",
+        "has bought you a pint of scotch, cause he is classy mofo.",
+        "has bought you nothing, cause he is too cheap.",
+        ]
+        
+        
  Copyright © 2014-2018 basicBot
 
  Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
