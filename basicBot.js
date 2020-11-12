@@ -247,7 +247,7 @@
     var basicBot = {
         version: '2.12.3',
         status: false,
-        name: 'BarTender Bot',
+        name: 'basicBot',
         loggedInID: null,
         scriptLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
