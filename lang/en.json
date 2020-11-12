@@ -161,7 +161,7 @@
     "nousercookie": "\/em doesn't see %%NAME%% in room and eats a cookie himself.",
     "selfcookie": "\/me @%%NAME%%, you're a bit greedy, aren't you? Giving cookies to yourself, bah. Share some with other people!",
     "cookie": "\/me @%%NAMETO%%, %%NAMEFROM%% %%COOKIE%%",
-    "eatbeer": "\/me drinks a beer.",
+   // "eatbeer": "\/me drinks a beer.",
    // "nouserbeer": "\/em doesn't see %%NAME%% in room and drinks the entire beer himself.",
    // "selfbeer": "\/me @%%NAME%%, you're a bit greedy, aren't you? Drinking beer by yourself, bah. Share some with other people!",
   //  "beer": "\/me @%%NAMETO%%, %%NAMEFROM%% %%BEER%%",
