@@ -112,7 +112,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://raw.githack.com/NexusRevZ/BARIII/master/lang/langIndex.json', function(json) {
+        $.get('https://raw.githack.com/basicBot/source/master/lang/langIndex.json', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -247,20 +247,20 @@
     var basicBot = {
         version: '2.12.3',
         status: false,
-        name: 'Bartender',
+        name: 'basicBot',
         loggedInID: null,
-        scriptLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/basicBot.js',
+        scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/lang/en.json',
+        chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'Bartender',
+            botName: 'basicBot',
             language: 'english',
-            chatLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/lang/en.json',
-            scriptLink: 'https://raw.githack.com/NexusRevZ/BARIII/master/basicBot.js',
+            chatLink: 'https://raw.githack.com/basicBot/source/master/lang/en.json',
+            scriptLink: 'https://raw.githack.com/basicBot/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -284,7 +284,7 @@
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
-            strictTimeGuard: false, // was true
+            strictTimeGuard: true,
             maximumSongLength: 10,
             autodisable: false,
             commandCooldown: 30,
@@ -294,7 +294,7 @@
             skipPosition: 3,
             skipReasons: [
                 ['theme', 'This song does not fit the room theme. '],
-                ['op', 'This song is on the OverPlayed list. '],
+                ['op', 'This song is on the OP list. '],
                 ['history', 'This song is in the history. '],
                 ['mix', 'You played a mix, which is against the rules. '],
                 ['sound', 'The song you played had bad sound quality or no sound. '],
@@ -303,16 +303,16 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
-            motdEnabled: true,
-            motdInterval: 25,
-            motd: 'Welcome to Club RevZ. Grab a seat and have a snack or two. First round`s on me! If you did enjoy your stay with Club RevolutionZ, do check-in with us on FaceBook. !order !fb !theme !site What would you like to see in our next event? https://tinyurl.com/ClubRevZSurvey',
+            motdEnabled: false,
+            motdInterval: 5,
+            motd: 'Temporary Message of the Day',
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: 'https://www.facebook.com/ClubRevolutionZ',
+            fbLink: null,
             youtubeLink: null,
             website: null,
             intervalMessages: [],
@@ -2745,7 +2745,7 @@
                         }));
                         var argument = msg.substring(cmd.length + 1);
 
-                        $.get('https://raw.githack.com/NexusRevZ/BARIII/master/lang/langIndex.json', function(json) {
+                        $.get('https://raw.githack.com/basicBot/source/master/lang/langIndex.json', function(json) {
                             var langIndex = json;
                             var link = langIndex[argument.toLowerCase()];
                             if (typeof link === 'undefined') {
