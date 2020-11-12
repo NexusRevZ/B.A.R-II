@@ -21,6 +21,10 @@
         "has bought you an old cookie that was left out in the rain, it's moldy.",
         "has bought you fresh cookies, it smells amazing."
     ],
+    "beers": [
+        "has bought you a can of Tiger Beer!",
+        "has bought you a can Coca Cola!"
+    ],
     "balls": [
         "Signs point to yes.",
         "Yes.",
