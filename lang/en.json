@@ -7,7 +7,7 @@
         "has bought you a chocolate chip cookie. Oh wait, those are raisins. Bleck!",
         "has bought you an enormous cookie. Poking it gives you more cookies. Weird.",
         "has bought you a fortune cookie. It reads \"Why aren't you working on any projects?\"",
-        "has bought you a fortune cookie. It reads \"Give that special someone a compliment\"",
+        "has bought you a fortune cookie. It reads \"Give that special someone a compliment.\"",
         "has bought you a fortune cookie. It reads \"Take a risk!\"",
         "has bought you a fortune cookie. It reads \"Go outside.\"",
         "has bought you a fortune cookie. It reads \"Don't forget to eat your veggies!\"",
@@ -23,10 +23,6 @@
     ],
     "beers": [
         "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!",
-        "has bought you a pint of Johny Walker!",
-        "has bought you a shot of Vodka!",
-        "has bought you an empty glass...",
         "has bought you a chilled bottle of Budweiser beer.",
         "has bought you a cold bottle of Bud Light beer.",
         "has bought you a chilled bottle of Heineken beer.",
@@ -34,56 +30,59 @@
         "has bought you a chilled bottle of Sam Adams beer.",
         "has bought you a cold bottle of Becks beer.",
         "has bought you a chilled bottle of Corona beer.",
-        "has bought you a pint of scoth, cause he is a classy mofo.",
+        "has bought you a fresh mug of Duff beer. https://media.giphy.com/media/3vDFxcB9vZNNS/giphy.gif",
         "has bought you nothing, cause he is too cheap."
     ],
     "donuts": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a box of freshly baked donuts!",
+        "has bought you a sugar coated donut!"
     ],
     "icecreams": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a pint of chocolate ice cream!",
+        "has bought you a pint of vanilla ice cream!"
     ],
     "rices": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a plate of Chicken Fried Rice!",
+        "has bought you a plate of Vegetarian Fried Rice!"
     ],
     "buns": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a Black Bean Bun!",
+        "has bought you a Kaya Bun!"
     ],
     "chipss": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a bag of Potato Chips!",
+        "has bought you a bag of Spicy falvored Potato Chips!"
     ],
     "drinks": [
-        "has bought you a can of Tiger Beer!",
+        "has bought you a can 7Up!",
+        "has bought you a can Pepsi!",
         "has bought you a can Coca Cola!"
     ],
     "pizzas": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a slice of Hawaiian Pizza!",
+        "has bought you a slice of Pepperoni Pizza!"
     ],
     "chocolates": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a bar of Diary Milk flavoured Chocolate!",
+        "has bought you a bar of Mint flavoured Chocolate!"
     ],
     "burgers": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a Chicken Burger!",
+        "has bought you a Krusty Burger! https://media.giphy.com/media/3orif6x0mznfY8467m/giphy.gif"
     ],
     "cupcakes": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a rainbow cupcake! https://media.giphy.com/media/Qu6deFRdwR4oi5W6TI/giphy.gif",
+        "has bought you a Chocolate cupcake!"
     ],
     "friess": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a plate of Fries!",
+        "has bought you a plate of Cheese Fries! https://media.giphy.com/media/Qu6deFRdwR4oi5W6TI/giphy.gif"
     ],
     "alcohols": [
-        "has bought you a can of Tiger Beer!",
-        "has bought you a can Coca Cola!"
+        "has bought you a pint of Johny Walker!",
+        "has bought you a shot of Vodka! https://media.giphy.com/media/eYtulOphLkxW/giphy.gif",
+        "has bought you a pint of scoth, cause he is a classy mofo.",
+        "has bought you an empty glass..."
     ],
     "balls": [
         "Signs point to yes.",
